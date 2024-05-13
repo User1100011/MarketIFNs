@@ -1,0 +1,8 @@
+﻿{
+  "UserRequirements": {
+    "NameMaxLength": 14,
+    "PasswordRequirements": {
+      "MaxLength": 10
+    }
+  }
+}
