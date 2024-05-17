@@ -1,9 +1,9 @@
-﻿using Market.Interfaces;
+﻿using Market.Interfaces.HashingInterfaces;
 using Microsoft.AspNetCore.Identity;
 
-namespace Market.OtherScripts
+namespace Market.Services.OtherServices
 {
-    public class PasswordHasher : IPasswordHasher, IHashVerify
+    public class PasswordHasherService : IPasswordHasher, IHashVerify
     {
         public string Hashing(string password)
         {

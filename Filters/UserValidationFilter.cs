@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using Market.Models.Entityes;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -31,12 +32,11 @@ namespace Market.Filters
                 context.Canceled = true;
 
                 _logger.LogWarning("User is null");
-
                 return;
             }
 
             var result = await _validator.ValidateAsync(user);
-
+            
             if (result.IsValid is false)
             {
                 context.Result = new BadRequestResult();

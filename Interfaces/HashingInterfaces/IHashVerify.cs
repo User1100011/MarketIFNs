@@ -1,4 +1,4 @@
-﻿namespace Market.Interfaces
+﻿namespace Market.Interfaces.HashingInterfaces
 {
     public interface IHashVerify
     {
