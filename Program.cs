@@ -23,14 +23,14 @@ namespace Market
                 //https://tproger.ru/articles/pochemu-my-ispolzuem-kafka-vmesto-rabbitmq-sravnenie-i-preimushhestva
                 //https://www.youtube.com/watch?v=i8H0y9dz3uk
 
-                //https://metanit.com/sharp/mvc5/23.7.php
+                //https://metanit.com/sharp/mvc5/23.7.phpz
                 //AutoMapper, Mapster, xUnit, NUnit, NLog, Seq, Serilog, FluentValidation, Swagger, SignalR.
                 //DTO, POCO, ValueObject
 
                 //authenticaiton and authorizatiion:
                 //https://www.youtube.com/watch?v=sMe3T6rFkXo
                 //https://metanit.com/sharp/aspnet5/15.2.php
-                //https://metanit.com/sharp/aspnet6/13.7.php шьср
+                //https://metanit.com/sharp/aspnet6/13.7.php 
             }
             else
             {

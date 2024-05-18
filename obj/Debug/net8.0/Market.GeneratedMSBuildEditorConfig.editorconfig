@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Market
 build_property.RootNamespace = Market
-build_property.ProjectDir = C:\Timur_Directoryes\Market\
+build_property.ProjectDir = /home/timurgb/MarketRep/MarketIFNs/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Timur_Directoryes\Market
+build_property.MSBuildProjectDirectory = /home/timurgb/MarketRep/MarketIFNs
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Timur_Directoryes/Market/Views/Home/Account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50LmNzaHRtbA==
+[/home/timurgb/MarketRep/MarketIFNs/Views/Home/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/timurgb/MarketRep/MarketIFNs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/timurgb/MarketRep/MarketIFNs/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/LoginController/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Db250cm9sbGVyXExvZ2luLmNzaHRtbA==
+[/home/timurgb/MarketRep/MarketIFNs/Views/LoginController/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW5Db250cm9sbGVyL0xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/LoginController/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Db250cm9sbGVyXExvZ291dC5jc2h0bWw=
+[/home/timurgb/MarketRep/MarketIFNs/Views/LoginController/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW5Db250cm9sbGVyL0xvZ291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/LoginController/Registration.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Db250cm9sbGVyXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
+[/home/timurgb/MarketRep/MarketIFNs/Views/LoginController/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW5Db250cm9sbGVyL1JlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/LoginController/RegistrationConfirmate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Db250cm9sbGVyXFJlZ2lzdHJhdGlvbkNvbmZpcm1hdGUuY3NodG1s
+[/home/timurgb/MarketRep/MarketIFNs/Views/LoginController/RegistrationConfirmate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW5Db250cm9sbGVyL1JlZ2lzdHJhdGlvbkNvbmZpcm1hdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/timurgb/MarketRep/MarketIFNs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+[/home/timurgb/MarketRep/MarketIFNs/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/timurgb/MarketRep/MarketIFNs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/timurgb/MarketRep/MarketIFNs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/timurgb/MarketRep/MarketIFNs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Timur_Directoryes/Market/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-gw6fk0oqoi
+[/home/timurgb/MarketRep/MarketIFNs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n6vacehwms

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Timur_Directoryes\\Market\\Market.csproj": {}
+    "/home/timurgb/MarketRep/MarketIFNs/Market.csproj": {}
   },
   "projects": {
-    "C:\\Timur_Directoryes\\Market\\Market.csproj": {
+    "/home/timurgb/MarketRep/MarketIFNs/Market.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Timur_Directoryes\\Market\\Market.csproj",
+        "projectUniqueName": "/home/timurgb/MarketRep/MarketIFNs/Market.csproj",
         "projectName": "Market",
-        "projectPath": "C:\\Timur_Directoryes\\Market\\Market.csproj",
-        "packagesPath": "C:\\Users\\bskov\\.nuget\\packages\\",
-        "outputPath": "C:\\Timur_Directoryes\\Market\\obj\\",
+        "projectPath": "/home/timurgb/MarketRep/MarketIFNs/Market.csproj",
+        "packagesPath": "/home/timurgb/.nuget/packages/",
+        "outputPath": "/home/timurgb/MarketRep/MarketIFNs/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/timurgb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,10 +49,6 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.1, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -124,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

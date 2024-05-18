@@ -2,9 +2,9 @@
 using System.Net.Mail;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-namespace Market.OtherScripts
+namespace Market.Services.OtherServices
 {
-    public class EmailSender : IEmailSender
+    public class EmailSenderService : IEmailSender
     {
         public async Task SendEmailAsync(string email, string subject, string htmlMessage)
         {

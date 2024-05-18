@@ -1,10 +1,13 @@
 ﻿using FluentValidation;
 using Market.DbContexts;
 using Market.Filters;
-using Market.Interfaces;
+using Market.Interfaces.AuthInterfaces;
+using Market.Interfaces.HashingInterfaces;
+using Market.Interfaces.FileInterfaces;
 using Market.Models;
 using Market.Models.Entityes;
-using Market.OtherScripts;
+using Market.Services.OtherServices;
+using Market.Services.AuthServices;
 using Market.Services.EntityServices;
 using Market.Validation;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -64,17 +67,38 @@ namespace Market.OtherScripts.Extensions
             builder.Services.AddAuthorization();
             builder.Services.AddSwaggerGen();
 
+            #region Dependencies Add
 
-            builder.Services.AddScoped<UserService>();
-            builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
-            builder.Services.AddScoped<IHashVerify, PasswordHasher>();
+            //Add Other Services:
+            builder.Services.AddScoped<IPasswordHasher, PasswordHasherService>();
+            builder.Services.AddScoped<IHashVerify, PasswordHasherService>();
             builder.Services.AddScoped<IValidator<UserEntity>, UserValidator>();
-            builder.Services.AddScoped<IEmailSender, EmailSender>();
+            builder.Services.AddScoped<IEmailSender, EmailSenderService>();
 
 
-            //Add filters
+            //Add Entity Services:
+            builder.Services.AddScoped<UserService>();
+            builder.Services.AddScoped<IFileCreateAsync, FileService>();
+            // =======f43f34=========== Result.FailureIf<FileEntity>(true, null, $"Type {formFile.ContentType} is not a picture"); можно так кстатиЛДОФЛДВжофывофылвоф
+
+            //Add Auth Services:
+            builder.Services.AddScoped<ILoginAsync, UserAuthService>();
+            builder.Services.AddScoped<IRegistrationAsync, UserAuthService>();
+            builder.Services.AddScoped<ILogoutAsync, UserAuthService>();
+
+            // builder.Services.AddScoped<ISalesmanLoginAsync, SalesmanAuthService>();
+            // builder.Services.AddScoped<ISalesmanRegistrationAsync, SalesmanAuthService>();
+            // builder.Services.AddScoped<ISalesmanLogoutAsync, SalesmanAuthService>();
+
+
+            //Add Filter services:
             builder.Services.AddScoped<ValidationFilter>();
             builder.Services.AddScoped<UserValidationFilter>();
+
+
+            //Add Other Services:
+
+            #endregion
 
             return builder;
         }
